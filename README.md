@@ -4,7 +4,7 @@ This project solves a player re-identification challenge using two videos captur
 
 <h2>📁 Folder Structure</h2>
 
-<h1>Since the best.pt file is too big to upload here's the link: https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view</h1>
+<h3>Since the best.pt file is too big to upload here's the link: https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view</h3>
 .
 ├── best.pt                # YOLOv11 model (trained to detect players)
 ├── broadcast.mp4          # Broadcast camera video
