@@ -1,8 +1,8 @@
-🏀 Cross-Camera Player Re-Identification
+#**🏀 Cross-Camera Player Re-Identification**
 
 This project solves a player re-identification challenge using two videos captured from different camera angles. It ensures players maintain consistent IDs across the two feeds.
 
-📁 Folder Structure
+#**📁 Folder Structure**
 
 .
 ├── best.pt                # YOLOv11 model (trained to detect players)
@@ -14,7 +14,7 @@ This project solves a player re-identification challenge using two videos captur
 ├── utils.py               # Visualization and video output
 ├── requirements.txt       # Dependencies
 
-🧪 Setup Instructions
+#🧪 **Setup Instructions**
 
 Install dependencies:
 
@@ -34,7 +34,7 @@ broadcast_annotated.mp4
 
 tacticam_annotated.mp4
 
-🛠️ Components
+#**🛠️ Components**
 
 main.py
 
@@ -54,14 +54,14 @@ utils.py
 
 Annotates videos with bounding boxes and player IDs.
 
-📦 Dependencies
+#**📦 Dependencies**
 
 ultralytics
 opencv-python
 numpy
 scipy
 
-🧠 Notes
+#**🧠 Notes**
 
 Class 0 is assumed to be the player class in YOLO.
 
@@ -69,11 +69,11 @@ Appearance feature is based on HSV histogram.
 
 Matching is based purely on visual similarity (not spatial/temporal for now).
 
-📩 Output
+#**📩 Output**
 
 You will find annotated videos with consistent player IDs saved in the project folder after successful execution.
 
-📬 Contact
+#**📬 Contact**
 
 For help or feedback, feel free to reach out!
 
