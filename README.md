@@ -6,14 +6,14 @@ This project solves a player re-identification challenge using two videos captur
 
 <h3>Since the best.pt file is too big to upload here's the link: https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view</h3>
 .
-├── best.pt                # YOLOv11 model (trained to detect players)
-├── broadcast.mp4          # Broadcast camera video
-├── tacticam.mp4           # Tacticam camera video
-├── main.py                # Main script to run the full pipeline
-├── detector.py            # Player detection logic
-├── matcher.py             # Feature extraction and matching
-├── utils.py               # Visualization and video output
-├── requirements.txt       # Dependencies
+├── best.pt                # YOLOv11 model (trained to detect players)  <br>
+├── broadcast.mp4          # Broadcast camera video <br>
+├── tacticam.mp4           # Tacticam camera video <br>
+├── main.py                # Main script to run the full pipeline <br>
+├── detector.py            # Player detection logic <br>
+├── matcher.py             # Feature extraction and matching <br>
+├── utils.py               # Visualization and video output <br>
+├── requirements.txt       # Dependencies <br>
 
 <h2>🧪 Setup Instructions</h2>
 
